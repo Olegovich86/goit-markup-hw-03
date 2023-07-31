@@ -1,0 +1,236 @@
+/* Main Pager */
+.body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color-white);
+  text-decoration: none;
+  margin: 0;
+}
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+.main-pages {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  text-decoration: none;
+}
+/*  Header  */
+.header-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-studio {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+}
+.header-menu-link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover {
+  color: #404bbf;
+}
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header {
+  font-style: normal;
+}
+.address {
+  font-style: normal;
+}
+.address-list-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-list-link:hover {
+  color: #404bbf;
+}
+.address-list-link:focus {
+  color: #404bbf;
+}
+/*    Main Section      */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.07; /* 60/56 */
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-button {
+  color: #fff;
+  cursor: pointer;
+  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
+.solution-wort-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.solution-wort-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-title {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+/*    Our Team       */
+.section-team {
+  background: #f4f4fd;
+}
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-team-title {
+  background: #fff;
+}
+.title-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/*    Footer       */
+.footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/*    Next      */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+/*   Portfolio     */
+
+.button-all {
+  color: #4d5ae5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.section-button-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.button-all:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.info-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.info-next-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

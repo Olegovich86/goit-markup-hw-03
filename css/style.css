@@ -27,7 +27,31 @@
   background-color: white;
   text-decoration: none;
 }
+/*  Reset  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*  Header  */
+
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -63,6 +87,8 @@
 }
 .header {
   font-style: normal;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .address {
   font-style: normal;
@@ -83,6 +109,10 @@
 /*    Main Section      */
 .hero {
   background: #2e2f42;
+}
+.hero-wrap {
+  background: #2e2f42;
+  padding: ;
 }
 .hero-title {
   color: #fff;

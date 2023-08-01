@@ -46,8 +46,9 @@ ul {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
+  margin: 0;
+  border: 5px solid red;
 }
 
 /*  Header  */
@@ -60,6 +61,7 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  width: 155px;
 }
 
 .header-logo-studio {
@@ -78,6 +80,15 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.header-menu {
+  display: flex;
+  padding-top: 24;
+  padding-bottom: 24;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 
 .header-menu-link:hover {
   color: #404bbf;
@@ -89,6 +100,9 @@ ul {
   font-style: normal;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.address-list {
+  display: flex;
 }
 .address {
   font-style: normal;
@@ -112,7 +126,8 @@ ul {
 }
 .hero-wrap {
   background: #2e2f42;
-  padding: ;
+  padding: 188px 0;
+  margin: 0 auto;
 }
 .hero-title {
   color: #fff;
@@ -120,6 +135,8 @@ ul {
   line-height: 1.07; /* 60/56 */
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 48px;
+  height: 120;
 }
 .hero-button {
   color: #fff;
@@ -136,6 +153,10 @@ ul {
 }
 .hero-button:focus {
   background-color: #404bbf;
+}
+.solution {
+  display: flex;
+  align-items: center;
 }
 .solution-wort-title {
   font-weight: 500;
@@ -184,6 +205,11 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 /*    Footer       */
 .footer {

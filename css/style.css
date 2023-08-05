@@ -43,6 +43,11 @@ ul {
   padding-top: 0;
   margin-bottom: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   width: 100%;
@@ -61,6 +66,7 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -132,7 +138,8 @@ ul {
 }
 .hero-wrap {
   background: #2e2f42;
-  padding: 188px;
+  padding: 188px 0px;
+  text-align: center;
   margin: 0 auto;
 }
 .hero-title {

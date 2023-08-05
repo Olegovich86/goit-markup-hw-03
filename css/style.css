@@ -94,6 +94,8 @@ ul {
 }
 .header {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address-list {
 }
@@ -115,18 +117,22 @@ ul {
 }
 /*    Main Section      */
 .hero {
-  background: #2e2f42;
+  color: #2e2f42;
+  padding-bottom: 120px;
 }
 .hero-wrap {
+  background: #2e2f42;
+  padding: 188px;
+  margin: 0 auto;
 }
 .hero-title {
   color: #fff;
   font-size: 56px;
   line-height: 1.07; /* 60/56 */
   letter-spacing: 0.02em;
-  text-align: center;
   margin-bottom: 48px;
-  height: 120;
+  height: 120px;
+  max-width: 496px;
 }
 .hero-button {
   color: #fff;
@@ -147,6 +153,8 @@ ul {
 .solution {
   display: flex;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .solution-wort-title {
   font-weight: 500;
@@ -154,6 +162,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .solution-wort-list {
   font-size: 16px;

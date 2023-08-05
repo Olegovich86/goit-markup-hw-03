@@ -45,10 +45,12 @@ ul {
 }
 
 .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0;
-  border: 5px solid red;
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: 4px solid red;
 }
 
 /*  Header  */
@@ -61,7 +63,6 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 155px;
 }
 
 .header-logo-studio {
@@ -81,13 +82,8 @@ ul {
   letter-spacing: 0.02em;
 }
 .header-menu {
-  display: flex;
-  padding-top: 24;
-  padding-bottom: 24;
 }
 .header-navigation {
-  display: flex;
-  align-items: center;
 }
 
 .header-menu-link:hover {
@@ -98,11 +94,8 @@ ul {
 }
 .header {
   font-style: normal;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .address-list {
-  display: flex;
 }
 .address {
   font-style: normal;
@@ -125,9 +118,6 @@ ul {
   background: #2e2f42;
 }
 .hero-wrap {
-  background: #2e2f42;
-  padding: 188px 0;
-  margin: 0 auto;
 }
 .hero-title {
   color: #fff;
@@ -207,9 +197,6 @@ ul {
   color: #2e2f42;
 }
 .button {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 /*    Footer       */
 .footer {

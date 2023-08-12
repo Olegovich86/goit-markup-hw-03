@@ -48,6 +48,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
 
 .container {
   width: 100%;
@@ -90,7 +98,7 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .header-navigation {
   display: flex;
@@ -140,11 +148,11 @@ img {
 }
 .hero-wrap {
   background: #2e2f42;
-  padding: 188px 0px;
+  padding: 188px 0 188px;
   text-align: center;
   margin: 0 auto;
 }
-.hero-title-to {
+.hero-title-name {
   color: #fff;
   font-size: 56px;
   line-height: 1.07; /* 60/56 */
@@ -153,7 +161,7 @@ img {
   height: 120px;
   max-width: 496px;
 }
-.hero-button-to {
+.hero-button-name {
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
@@ -175,11 +183,15 @@ img {
 .hero-button:focus {
   background-color: #404bbf;
 }
-.solution {
+.solution-work-title {
   display: flex;
   align-items: center;
   padding-top: 120px;
   padding-bottom: 120px;
+  gap: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .solution-wort-title {
   font-weight: 500;
@@ -194,7 +206,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-title {
+.solution-work-list {
+  margin-right: 0;
+}
+.section-title-link {
   font-size: 36px;
   font-style: normal;
   line-height: 1.11;
@@ -202,6 +217,13 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.section-title-lost {
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 /*    Our Team       */
 .section-team {

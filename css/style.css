@@ -55,6 +55,10 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -94,11 +98,11 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -131,6 +135,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .address-list {
   gap: 40px;
@@ -159,6 +164,7 @@ img {
   margin-bottom: 48px;
   height: 120px;
   max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 .hero-button-name {
   color: #fff;
@@ -175,6 +181,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   display: block;
+  margin: 0 auto 48px auto;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -234,7 +241,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-top: 120px;
 }
 .section-team-work {
   padding-top: 120px;
@@ -280,6 +287,7 @@ img {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+  padding: 100px 0;
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -289,7 +297,6 @@ img {
   line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding: 100px 0;
 }
 .footer-text {
   color: #f4f4fd;

@@ -98,7 +98,7 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -148,10 +148,8 @@ img {
 }
 .hero-wrap {
   background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
   margin: 0 auto;
+  padding: 188px 0;
 }
 .hero-title-name {
   color: #fff;
@@ -171,12 +169,12 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  display: block;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -187,12 +185,11 @@ img {
 .solution-work-title {
   display: flex;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   gap: 24px;
   margin-left: 156px;
   margin-right: 156px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .solution-wort-title {
   font-weight: 500;
@@ -207,9 +204,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.solution-work-list {
-  margin-right: 0;
-}
+
 .section-title-link {
   font-size: 36px;
   font-style: normal;
@@ -227,6 +222,7 @@ img {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 /*    Our Team       */
+
 .section-team {
   background: #f4f4fd;
 }

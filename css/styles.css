@@ -61,6 +61,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .header-logo-color {
@@ -76,6 +78,7 @@ button {
 .header-menu-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-menu-item {
@@ -87,6 +90,8 @@ button {
 }
 
 .header-menu-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -104,6 +109,7 @@ button {
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address-menu {
@@ -113,12 +119,15 @@ button {
   color: #434455;
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-address-mail {
 }
 
 .header-address-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

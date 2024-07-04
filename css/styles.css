@@ -168,7 +168,10 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
   text-align: center;
+  padding-top: 188px;
+  margin: 0 auto 48px auto;
 }
 
 .hero-button {
@@ -178,6 +181,11 @@ button {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
+  border-radius: 4px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 32px;
 }
 
 .hero-button:hover {

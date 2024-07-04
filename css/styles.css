@@ -199,6 +199,10 @@ button {
 
 /*-------------- Section work---------------- */
 
+.section {
+  padding: 120px 120px;
+}
+
 .work {
 }
 .work-menu {
